@@ -1,0 +1,161 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+.nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav .nav-links {
+    display: flex;
+    gap: 15px;
+}
+.nav .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav .nav-links a:hover {
+    text-decoration: underline;
+}
+.nav .cart {
+    position: relative;
+}
+
+.nav .cart .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+}
+.nav h1 {
+    margin: 0;
+    font-size: 40px;
+    color: blueviolet;
+}
+.nav .nav-search {
+    display: flex;
+    gap: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nav .nav-search input {
+    display: flex;
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+    width: 2ng00px;
+    height: 35px;
+}
+.nav .nav-search button {
+    flex: 1;
+    padding: 5px 10px;
+    font-size: 16px;
+    height: 45px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.nav .nav-search button:hover {
+    background-color: darkblue;
+}
+.nav .nav-search input:focus {
+    outline: none;
+    border: 2px solid blueviolet;
+}
+.nav .nav-search input::placeholder {
+    color: #999;
+}
+ /* .nav .nav-search input:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+} 
+.nav .nav-search button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.nav .nav-search button:active {
+    background-color: darkblue;
+}
+.nav .nav-search input:active {
+    border: 2px solid darkblue;
+}
+.nav .nav-search input[type="search"] {
+    border-radius: 4px;
+}
+.nav .nav-search button[type="submit"] {
+    border-radius: 4px;
+}
+.nav .nav-search input[type="search"]:focus {
+    border: 2px solid blueviolet;
+}
+.nav .nav-search button[type="submit"]:hover {
+    background-color: darkblue;
+}
+.nav .nav-search input[type="search"]:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}
+.nav .nav-search button[type="submit"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.nav .nav-search input[type="search"]:active {
+    border: 2px solid darkblue;
+}
+.nav .nav-search button[type="submit"]:active {
+    background-color: darkblue;
+}*/
+.nav ul {
+    display: inline-flex
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav ul li {
+    display: inline-flex;
+    padding-left: 15px;
+    padding-top: 15px;
+  
+}
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+.nav ul li a:active {
+    text-decoration: underline;
+}
+.nav ul li a:focus {
+    text-decoration: underline;
+}
+.nav ul li a:disabled {
+    color: #999;
+    cursor: not-allowed;
+}
+.nav ul li a:visited {
+    color: white;
+}
+.nav ul li a:link {
+    color: white;
+}
+.nav ul li a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s;
+}
